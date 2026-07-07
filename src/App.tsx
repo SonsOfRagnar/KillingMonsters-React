@@ -6,7 +6,7 @@ import NotFound from './pages/not-found'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/KillingMonsters-React/">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/bestiary" element={<Bestiary/>}/>
