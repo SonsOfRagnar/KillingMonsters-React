@@ -1,9 +1,14 @@
-function Home() {
+import KMNavbar from "../components/Navbar/Navbar";
+
+
+function HomePage() {
     return (
         <div>
-            Home Page
+            <KMNavbar/>
+            Home
         </div>
+
     );
 }
 
-export default Home;
+export default HomePage;

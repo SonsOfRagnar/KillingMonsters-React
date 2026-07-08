@@ -1,16 +1,27 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Bestiary from './pages/bestiary'
-import Home from './pages/home'
-import NotFound from './pages/not-found'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './variables.css'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import BestiaryPage from './pages/bestiary'
+import HomePage from './pages/home'
+import NotFoundPage from './pages/not-found'
+import StoryPage from './pages/story';
+import RulesPage from './pages/rules';
+import AboutPage from './pages/about';
+
+
+// basename="/KillingMonsters-React"
 
 function App() {
   return (
-    <Router basename="/KillingMonsters-React/">
+    <Router> 
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/bestiary" element={<Bestiary/>}/>
-        <Route path="*" element={<NotFound/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/bestiary" element={<BestiaryPage/>}/>
+        <Route path="/story" element={<StoryPage/>}/>
+        <Route path="/rules" element={<RulesPage/>}/>
+        <Route path="/about" element={<AboutPage/>}/>
+        <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
     </Router>
   )

@@ -1,4 +1,4 @@
-function NotFound() {
+function NotFoundPage() {
     return (
         <div>
             Page route not found.
@@ -6,4 +6,4 @@ function NotFound() {
     );
 }
 
-export default NotFound;
+export default NotFoundPage;

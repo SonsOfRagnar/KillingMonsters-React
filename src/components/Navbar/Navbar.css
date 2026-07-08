@@ -1,0 +1,15 @@
+.navbar {
+    /* background-color: var(--color-secondary-100); */
+}
+
+.main-navbar {
+    background-color: var(--color-secondary-100);
+}
+
+.nav-link {
+    color: var(--text-color-primary-100);
+}
+
+.navbar-brand {
+    color: var(--text-color-primary-100);
+}

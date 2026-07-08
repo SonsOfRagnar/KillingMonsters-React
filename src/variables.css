@@ -1,0 +1,10 @@
+:root {
+    --color-primary-100: #221d1d; /* background */
+    --color-secondary-100: #25201d; /* navbar */
+    --color-tertiary-100: #f1e4c4;
+
+    --text-color-primary-100: #dfd6c4; /*nav bar text */
+    --text-color-primary-200: #dfd6c4c2; 
+    --text-color-secondary-100: #48392e; /* body text */
+    --text-color-tertiary-100: #702a2a;
+}
