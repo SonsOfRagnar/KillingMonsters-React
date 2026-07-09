@@ -1,0 +1,93 @@
+[
+ {
+    "name":"Beast",
+    "plural":"Beasts",
+    "overview":"Beasts are natural creatures, evolved over time due to natural selection and mutation, without magical aid or outside influence. As such, silver as no effect on them.\n\nCommon animals such as wolves, bears, birds, et al. are themselves beasts, but are omitted from this bestiary for brevity, since they are of a common nature, and easily warded off by fire, and other ordinary means.\n\nThere are however divers beasts both strange and monstrous, whom by virtue of their rarity, natural ferocity, or incredible strengths are oft the subject of contracts for monster hunters. They are set down within this section.",
+    "image":"BeastsDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Cursed One",
+    "plural":"Cursed Ones",
+    "overview":"These monsters were once men, or other natural folk, before a magical curse or ancient hex transformed them. In rare cases, their curse may have been passed on from parent to child, or from attacker to victim through a wound. Due to the powerfully magical nature of Cursed Ones, one should take care to approach each case individually, being wary of assumptions or past experiences. Some curses may follow reliable patterns - such as that of the Striga - but even then some details may vary, along with the strength of the curse.\n\nMany cases can be cured through the proper dispelling of the curse. Some curses have known cures, although enacting them may be tricky, while others often require the meeting of certain conditions unique to the circumstances under which the afflicted was cursed. Gathering information the exact nature of the curse is usually vital. How were they cursed, by whom, and why? The wording of curses can be especially important, as finding ways to fulfil a curse's parameters while subverting the intended effects can break their power. There is more power in words than many know, and one does not need to be a great mage to invoke powers beyond their understanding with and ill-spoken curse or threat.\n\nIf all else fails, death is a swift cure for most cursed ones, although it may not come easily to them, as their curses often bestow terrible strength upon them.",
+    "image":"CursedOnesDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Draconid",
+    "plural":"Draconids",
+    "overview":"Dragon. No other monster is as far-famed or feared as the Dragon. Peasants tell tales of their wrath, kings stitch them on their banners, all covet their legendary hoards of treasure. Despite their extreme lethality, the vast majority of true Dragons have been hunted to near extinction by royal armies, huge bands of hunters, and mages seeking their potent blood and organs.\n\nIndeed, although they are related, the majority of Draconids are not true Dragons, and many are extremely different. They are however often confused or conflated with Dragons by the uneducated, and by braggarts quick to claim they have slain a Dragon. The Draconids are a broad family of quasi-reptiles that encompasses terrestrial, aerial, and aquatic species.\n\nAerial species are the most numerous - and often most dangerous - of these, roosting in mountain caves, rocky crags, cliff-faces, and occasionally ruined structures. Herd animals, particularly sheep, are their most common prey, and are snatched boldly from fields and pens.",
+    "image":"DraconidDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Elemental",
+    "plural":"Elementa",
+    "overview":"",
+    "image":"",
+    "parentCategory":""
+ },
+ {
+    "name":"Greater Vampire",
+    "plural":"Greater Vampires",
+    "overview":"",
+    "image":"",
+    "parentCategory":"Vampire"
+ },
+ {
+    "name":"Hybrid",
+    "plural":"Hybrids",
+    "overview":"",
+    "image":"",
+    "parentCategory":""
+ },
+ {
+    "name":"Insectoid",
+    "plural":"Insectoids",
+    "overview":"A broad family of large and dangerous arthropods, which often resemble outsized versions of their more mundane relatives. Like smaller insects, Insectoid monsters often form large colonies and display complex organisational behaviours, often separated by caste: drones, warriors, queens, etc. Although some Insectoids are solitary creatures, one would always be wise to assume there may be others. If one is lax in exterminating a colony, they can quickly repair their numbers and become far more aggressive than before.\n\nApart from their strength in numbers, the vast majority of Insectoids are protected by strong, chitinous exoskeletons that can resist even the sharpest blades. Many can survive the loss of limbs, and some have secondary organs and decentralised nervous systems that make them exceptionally resilient. Fire is often effective against them, although it is not a foolproof solution.\n\nMost insectoids burrow and climb exceptionally well, are fast, hardy, and blindly obedient to their colony, making them highly dangerous.",
+    "image":"InsectoidsDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Lesser Vampire",
+    "plural":"Lesser Vampires",
+    "overview":"",
+    "image":"",
+    "parentCategory":"Vampire"
+ },
+ {
+    "name":"Necrophage",
+    "plural":"Necrophages",
+    "overview":"Translating literally as 'Corpse Eaters', these are monsters that feed on the dead, particularly humanoid corpses. Their presence in graveyards and on old battlefields - along with their name - has given rise to the erroneous belief that Necrophages themselves are dead creatures reanimated from the corpses of the slain. This is of course nonsense. Unlike Specters, Necrophages are living creatures that while preternatural, have found an ecological niche as scavengers and carrion-eaters.\n\nThey are drawn to death, particularly large burial grounds, mass graves, and sites of battle, where they can sustain themselves for months on the corpses found there. Necrophages often tolerate others of their kind and many are able to display social behaviour when advantageous, hunting in packs when carrion is unavailable, and forming communal feeding grounds for mutual protection. Several species of Necrophage may coexist in a location, and sometimes Necrophages follow other monsters or beasts to scavenge from their discarded kills.\n\nAs buried corpses are a common food source, digging or burrowing is a commonly reported behaviour. Necrophages are nourished by consuming rotting corpses, and when injured, have been observed to devour those who fall fighting them to recoup their strength and vigor. For this reason, it is often advisable to engage the creatures on ground of your choose, rather than in their carrion-filled lairs.",
+    "image":"NecrophagesDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Ogroid",
+    "plural":"Ogroids",
+    "overview":"",
+    "image":"",
+    "parentCategory":""
+ },
+ {
+    "name":"Relict",
+    "plural":"Relicts",
+    "overview":"Relicts are ancient beings, the last remains of dying species, driven to the brink of extinction by the long march of time, and the relentless expansion of civilisation. While they may once have been numerous, these creatures are now among the rarest monsters encountered, which combined with the mystery surrounding their origins, leads many simple folk to believe them to be gods ruling over deep woodlands, or demons sent up from some burning hell.\n\nThere is great variety among relicts, with many of them being truly unique, and many of them sapient beings. Great caution is advised when hunting any relict, as even known species may have unique variations, skills, or knowledge from their long lives. Additionally, it is worth noting that there are many relicts that seem to pose little threat, and may even be benevolent in their own way, something worth considering before setting out to kill one.\n\nDespite their magical nature, relicts are incredibly resilient against both steel and silver weaponry, only being truly threatened by blades deeply imbued with magic.",
+    "image":"RelictsDiagram.png",
+    "parentCategory":""
+ },
+ {
+    "name":"Spectre",
+    "plural":"Spectres",
+    "overview":"Spectres is a broad term for the undead, the restless spirits of the deceased who cannot - or will not - give up their grip on life. Spectres take many forms, and even within a given classification there may be significant variety. The undead are not species of creature, like most of the monsters covered within these pages, but a projection of the spirit onto the material world. They are shaped more by their own experience, memories, and trauma than they are by rules of nature, and their abilities, motivations, and weaknesses may vary accordingly.\n\nMany Spectres retain some level of sentience and can be reasoned with, communicated with, and even collaborated with, as some may wish to peacefully move on at last. Others are violent and bloodthirsty, or bring pestilence, nightmares, and sorrow. One should be wary of jumping straight to a drawn sword however, as not all Spectres can be simply defeated. Many require the meeting of certain conditions - much like the lifting of a curse - to be dispelled.",
+    "image":"Spectres.webp",
+    "parentCategory":""
+ },
+ {
+    "name":"Vampire",
+    "plural":"Vampires",
+    "overview":"Vampires are an enigmatic and elusive family of creatures, about which little is known. Even the extent to which the different kinds of vampires are related to one another is contested, however they all share in common one trait, a desire - sometimes a need - to drink blood, particularly the blood of humanoids. In some Vampires this is necessary for their survival, and they subsist on little else, while in others blood is merely a delicacy, or craving, which is satiated at their whim.\n\nVampires can be roughly divided into two categories, Greater and Lesser, based on their intelligence. Generally speaking, Greater Vampires possess full intelligence and are usually able to assume a humanoid form. Most of these Vampires still need to feed on blood to survive, while being able to control their thirst and feed only when necessary or advantageous. Greater Vampires are also less likely to be susceptible to sunlight. In contrast, Lesser Vampires are animalistic, driven by a predator's instincts and their need to feed. Lesser Vampires generally have only one form - usually monstrous -  and are also nocturnal, being either highly sensitive to sunlight, or completely unable to stand it without death.\n\nOf the Greater Vampires, one type stand apart: the Higher - or True - Vampires. Higher Vampires are vastly more powerful than their brethren, nigh indestructible, and are fully detached from the necessity of drinking blood to survive - though that does not stop them from indulging despite this. No author, scholar, or warrior is qualified to teach one how to defeat a Higher Vampire, or even to survive an encounter with one that wishes you harm. Should you ever meet one, pray they are amicable. ",
+    "image":"Vampires.webp",
+    "parentCategory":""
+ }
+]

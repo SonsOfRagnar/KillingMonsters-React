@@ -1,0 +1,47 @@
+[
+ {
+    "id":0,
+    "name":"Amphisbaena",
+    "image":"Amphisbaena.webp",
+    "category":"Beast",
+    "type":"Beast",
+    "size":"Large",
+    "overview":"A large freshwater aquatic snake with a second head in place of its tail. Green, brown, or blue scales form banded patterns. Each head has a blunt snout with nostrils located dorsally and large front fangs.\n\nFound in freshwater rivers and lakes, usually in temperate or warm areas. ",
+    "strengths":"Resistant to poison, and bludgeoning damage; fast, agile swimmers; dual heads move and strike independently of one another; venom causes drowsiness and lethargy followed by sleep; strong body can be used to wrap and crush prey",
+    "weaknesses":"Vulnerable to cold damage; much slower outside of the water and struggles to avoid blows; if a head is grappled, it cannot use its fangs; damage to the central body affects both heads",
+    "features":"Each head acts independently but in coordination with its partner, conditions and damage affect each head separately; the smell of vinegar mixed with rosemary is disliked by the creature and it will generally avoid areas coated in it; venom is strong but can be counteracted by potions",
+    "lures":"Live waterfowl moving in the water",
+    "harvesting":"Serpent Scales\nAmphisbaena Venom",
+    "lore":"The Amphisbaena is a curious beast which closely resembles a common serpent, save for the presence of a second head where the tail should be. It is unclear if one head takes precedence over the other, and the Amphisbaena has been observed moving comfortably in either direction, without ever contradicting itself, suggesting that each head is in perfect coordination with the other. Each head moves independently and is unaffected by anything done to the other, including mortal wounds. Thus one must slay both heads of the serpent, or sever its central body with haste, although this may be more difficult that first imagined. The Amphisbaena is cunning, and rarely leaves the water, concealing the majority of its coiling bulk below the surface until prey has been subdued by its fangs. A common attack involves the snake swimming beneath prey, and then rearing up with both heads to attack from opposite sides, while the body remains submerged. Once prey has been incapacitated, the body quickly entangles the victim and drags it below the water for feeding.\n\nAlthough not the most dangerous of monsters, the Amphisbaena is fairly widespread (excluding particularly cold regions) and can be difficult to detect prior to attacks taking place. The serpent sleeps in the deepest areas of water available, and spends most of its time submerged. They are not amphibious and as such must surface to breath, however their nostrils are located dorsally and thus they need only expose the tip of their snout when surfacing. They can remain submerged for six to eight hours at a time, and are strong swimmers, able to move rapidly even against currents. Unlike true Sea Serpents, the Amphisbaena lays long, pale eggs in clutches of up to five, rather than giving birth to live young. When laying eggs, the snake will leave the water and find a secluded area nearby to lay their eggs, usually under rocks, riverbanks, fallen logs, or tree roots."
+ },
+ {
+    "id":1,
+    "name":"Werewolf",
+    "image":"Werewolf.webp",
+    "category":"Cursed One",
+    "type":"Humanoid",
+    "size":"Medium",
+    "overview":"Medium Cursed One (Humanoid): Wolf-like bipeds with large hind paws and elongated limbs. Can run on all fours with long, clawed hands. Mix of leathery skin and thick wolf fur. Wolf's head and ruff protruding from shoulders. Standard canine jaw configuration, exceptionally strong bite.\n\nFound usually in settlements living as ordinary people when not transformed. More feral specimens may lair in forests or high tundra.",
+    "strengths":"Immune to non-silver weaponry, cold damage, frightened; resistant to poison, necrotic, thunder, force damage, charmed; excellent hearing and smell; rapid regeneration; very fast, strong, and agile; very fast aggressive attacks; intelligent",
+    "weaknesses":"Harmed by Silver; vulnerable to a silver spear tipped with a sprig of Wolfsbane, left under the full moon for an hour; application of Moondust can halt their regenerative ability\n",
+    "features":"Potion of Wolfsbane, Hemlock, and silver powder can prevent transformation for 1 - 4 hours; some cases of lycanthropy may be cured by removing the curse that first transformed them; bites should be treated with a poultice of rue, wormwood, and silver powder, although the chance of infection is low; cats hate werewolves while dogs may show enthusiasm, fearful respect, or obedient loyalty to them;",
+    "lures":"Blood of a child under five years of age\nHeart of a loved one",
+    "harvesting":"Werewolf Blood",
+    "lore":"A humanoid cursed with lycanthropy, instilling a thirst for blood and granting the ability to transform into a terrible wolf. Lycanthropes may be either direct results of a magical Curse, born as the offspring of two lycanthropes, or infected when bitten by one already afflicted by lycanthropy. However this last is far rarer than superstition would have you believe as most bites do not transmit the disease. However it is still a possibility and one especially relevant to those who may encounter and fight lycanthropes often.\n\nIn the case of cursed werewolves, there is a possibility of lifting the curse, although as with all curses, it will be likely be unique, and require a unique solution to lift it, if it is at all possible to lift. Those cursed with lycanthropy - rather than being born to it - have little control over their transformation, and are driven by a terrible bloodlust and hunger. Most have no recollection of their actions while under its effects (perhaps a blessing) and only a few with iron wills are able to restrain themselves enough to communicate while transformed.\n\nRegardless of the source of their lycanthropy, each werewolf is invariably unique, as they are humanoids cursed or diseased with a terrible burden. Some may be unwilling hosts to the bloodlust, while others may embrace it, or even deliberately use it to their advantage. Some may be fully lucid during transformation, while others may remember only fragments, or believing the episodes to be vivid dreams.\n\nIn combat, a werewolf is very dangerous, and possessed of an apex predator's murderous instincts. They have been recorded to single out weak foes and viciously focus on them until they fall, slowly picking apart a group until the stronger members stand alone. They can leap great distances and seize upon any weakness to strike swiftly, preferring bites to the throat to quickly finish an opponent, although they are said to rip out the hearts of those they kill as well. They are not known to flee."
+ },
+ {
+    "id":2,
+    "name":"Forktail",
+    "image":"Forktail.webp",
+    "category":"Draconid",
+    "type":"Dragon",
+    "size":"Large",
+    "overview":"Aerial biped with sharp, three-toed claws. Short, heavy neck and large blunt head with conical teeth. Extremely long, whip-like tail with forked end. Females are larger with longer tails, while males have coloured neck-frills.\n\nFound in mountains, cliff-faces, open woodlands. More common in higher altitude areas, but have a wide distribution. Often drawn to pastures and open grassland in search of livestock. ",
+    "strengths":"Immune to lightning, slashing damage; resistant to poison, bludgeoning damage; tail is very fast and sharp, often causing copious bleeding; strong bite that can be very hard to release; hunt in pairs or groups",
+    "weaknesses":"Vulnerable to thunder damage;  far slower and more vulnerable while on the ground; weighted nets or firmly anchored bear traps may be able to keep it grounded; Pairs or groups are led by the oldest, largest female, killing them may cause the group to lose cohesion",
+    "features":"Often found in mated pairs, although larger groups may also form; they dislike thunderstorms and fly poorly in them, preferring to stay on the ground",
+    "lures":"Live goat or sheep",
+    "harvesting":"Draconid Scales\nDraconid Claws",
+    "lore":"The Forktail is a winged Draconid that is often mistaken for their close kin the Wyvern. They derive their name from their tails, which split into two very long, whip-like sections of sharp, scaly ridges. These whips can measure up to six feet long, and strike with deadly, accuracy, opening terrible slashing wounds and cause horrible bleeding. Strikes with this tail is the Forktail's preferred method of attack, usually severing a vital artery, allowing the Forktail to remain airborne until the prey has bled out. \n\nUnlike Wyverns, the Forktail has a short neck and legs, and they rarely carry their prey aloft, instead alighting nearby once their prey is dead and tearing chunks from the carcass. They are also more social animals than many Draconids, commonly forming mated pairs, or even larger groups, which hunt together and share kills. In a given pair or group, the largest, oldest female is the leader and eats first after kills are made. She coordinates hunting efforts and keeps younger members in line, preventing infighting. In a mated pair, the female is always the more dangerous and fearless of the two."
+ }
+]
