@@ -5,10 +5,11 @@ import './BestiaryEntry.css'
 
 
 import { GetImage } from "../../../utility/ImageImporter";
+import { SanitiseString } from '../../../utility/StringUtilities';
 
 function BestiaryEntry({entryData}: {entryData: Creature}) {
     return (
-        <div className='bestiary-entry'>
+        <div id={"bestiary-" + SanitiseString(entryData.name)} className='bestiary-entry anchor'>
             <h2>{entryData.name}</h2>
             <Row>
                 <Col>

@@ -5,7 +5,9 @@ import { useState } from 'react';
 import bestiaryEntriesJson from '../../../data/creatures.json';
 import bestiaryCategoriesJson from '../../../data/categories.json';
 import type { Category, Creature } from "../../../types/BestiaryTypes";
+import { SanitiseString } from '../../../utility/StringUtilities';
 
+import './BestiarySidebar.css'
 
 const creatures = bestiaryEntriesJson as Creature[];
 const categories = bestiaryCategoriesJson as Category[];
@@ -18,8 +20,24 @@ function BestiarySidebar({ breakpoint } : {breakpoint : string}) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    function ScrollToEntry(entryId: string) {
+        document.getElementById(entryId)
+        ?.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
+
+    // Group up creatures by category for optimal list generation.
+    const creaturesByCategory = creatures.reduce((groups, creature) => {
+        (groups[creature.category] ??= []).push(creature);
+        return groups;
+        }, {} as Record<string, Creature[]>);
+
+    //console.log(creaturesByCategory);
+
     return(
-        <>
+        <div className='bestiary-sidebar'>
             <Button variant="primary" className="d-lg-none" onClick={handleShow}>
                 Bestiary Index
             </Button>
@@ -36,17 +54,15 @@ function BestiarySidebar({ breakpoint } : {breakpoint : string}) {
                         <ul>
                             {categories.map((category) => 
                                 category.parentCategory.length == 0 ? (
-                                    <li>
-                                        <a href="#bestiary-cursed-ones" className="bestiary-link-heading rounded"> {category.name} </a>
+                                    <li key={category.name}>
+                                        <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(category.name))}>{category.name}</Button>
 
                                         <ul>
-                                            {creatures.map((creature) => 
-                                                creature.category == category.name ? (
-                                                    <a href="#bestiary-cursed-ones" className="bestiary-link-heading rounded"> {creature.name} </a>
-                                                ) : (
-                                                    null
-                                                )
-                                            )}
+                                            {creaturesByCategory[category.name]?.map((creature) => (
+                                                <li key={creature.id}>
+                                                    <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(creature.name))}>{creature.name}</Button>
+                                                </li>    
+                                            ))}
                                         </ul>
                                     </li>
                                 ) : (
@@ -54,12 +70,12 @@ function BestiarySidebar({ breakpoint } : {breakpoint : string}) {
                                 )
                             )}
                         </ul>
-                        
+
                     </nav>
                 </Offcanvas.Body>
 
             </Offcanvas>
-        </>
+        </div>
     );
 }
 

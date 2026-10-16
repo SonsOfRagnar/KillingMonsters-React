@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+
+    .bestiary-sidebar {
+        position: sticky;
+        display: block;
+        top: 5rem;
+        height: calc(100vh - 6rem);
+        padding-left: 4rem;
+    }
+
+    .bestiary-sidebar .offcanvas-body {
+        overflow-y: auto;
+    }
+
+}

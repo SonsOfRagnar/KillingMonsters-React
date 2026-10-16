@@ -15,7 +15,6 @@ export interface Creature {
 }
 
 export interface Category {
-    id: number;
     name: string;
     plural: string;
     overview: string;
