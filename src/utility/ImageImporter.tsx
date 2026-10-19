@@ -16,6 +16,24 @@ function ImportBestiaryImages()
     })
 }
 
+function ImportCategoryImages()
+{
+    const imagesImport = Object.values(import.meta.glob('../assets/images/bestiary/categories/*.{png,jpg,jpeg,PNG,JPEG,webp}', { eager: true, query: '?url', import: 'default' }));
+
+    imagesImport.forEach(element => {
+        let splitURL = element.split("/");
+        let imageName = splitURL[splitURL.length - 1];
+        let imageExtension = "." + imageName.split(".")[1]; // image .extension
+        imageName = imageName.split(".")[0]; // image name with no extension
+        let sanitisedImageName = imageName.split("-")[0] + imageExtension; // we remove any -id added by the vite build process to ensure our name matches the entries.
+    
+        // via map
+        images.set(sanitisedImageName, element);
+
+    })
+}
+
+
 /** 
  * Returns the filepath for the image requested. 
  * Used to fix issues with github pages renaming/moving images in src/assets.
@@ -26,19 +44,24 @@ function ImportBestiaryImages()
 function GetImage(imageName: string) : string
 {
     const imagePath = images.get(imageName);
-    
+ 
+    //console.log("Searching for " + imageName);
+
     if (imagePath != undefined)
     {
         return imagePath;
     }
     else
     {
-        throw new Error("GetImage " + imageName + " returned undefined when attempting to retrieve filepath.");
+        console.error("GetImage " + imageName + " returned undefined when attempting to retrieve filepath.")
+        return " ";
+        //throw new Error("GetImage " + imageName + " returned undefined when attempting to retrieve filepath.");
     }
 }
 
 
 ImportBestiaryImages();
+ImportCategoryImages();
 
 export 
 {

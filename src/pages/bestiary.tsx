@@ -1,20 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
-import BestiaryEntry from "../components/bestiary/BestiaryEntry/BestiaryEntry";
 import BestiarySidebar from "../components/bestiary/BestiarySidebar/BestiarySidebar";
 import KMNavbar from "../components/Navbar/Navbar";
-
-import bestiaryEntriesJson from '../data/creatures.json';
-import bestiaryCategoriesJson from '../data/categories.json';
-
-import type { Category, Creature } from "../types/BestiaryTypes";
-
-
-const creatures = bestiaryEntriesJson as Creature[];
-const categories = bestiaryCategoriesJson as Category[];
+import BestiaryContent from "../components/bestiary/BestiaryContent/BestiaryContent";
+import '../App.css';
 
 function BestiaryPage() {
     return (
-        <div>
+        <div className="page bestiary-page">
             <KMNavbar/>
 
             <Container fluid>
@@ -24,14 +16,7 @@ function BestiaryPage() {
                     </Col>
 
                     <Col>
-                        <div>
-                            {creatures.map((creature) => (
-                                <BestiaryEntry
-                                    key={creature.id}
-                                    entryData={creature}
-                                />
-                            ))}
-                        </div>
+                        <BestiaryContent/>
                     </Col>
 
                     <Col md={2}>

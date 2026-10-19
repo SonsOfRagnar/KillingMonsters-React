@@ -1,0 +1,11 @@
+.category-entry {
+    /* border: solid red; */
+
+    font-family: "Kurale";
+    color: var(--text-color-secondary-100);
+}
+
+.category-header-1 {
+    color: var(--text-color-tertiary-100);
+    text-align: center;
+}

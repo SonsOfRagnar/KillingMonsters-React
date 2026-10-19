@@ -32,9 +32,7 @@ function BestiarySidebar({ breakpoint } : {breakpoint : string}) {
     const creaturesByCategory = creatures.reduce((groups, creature) => {
         (groups[creature.category] ??= []).push(creature);
         return groups;
-        }, {} as Record<string, Creature[]>);
-
-    //console.log(creaturesByCategory);
+    }, {} as Record<string, Creature[]>);
 
     return(
         <div className='bestiary-sidebar'>
@@ -53,14 +51,14 @@ function BestiarySidebar({ breakpoint } : {breakpoint : string}) {
 
                         <ul>
                             {categories.map((category) => 
-                                category.parentCategory.length == 0 ? (
+                                category.parentCategory.length == 0 && creaturesByCategory[category.name]?.length > 0 ? (
                                     <li key={category.name}>
-                                        <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(category.name))}>{category.name}</Button>
+                                        <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(category.plural))} className='btn-sidebar btn-sidebar-category'>{category.plural}</Button>
 
                                         <ul>
                                             {creaturesByCategory[category.name]?.map((creature) => (
                                                 <li key={creature.id}>
-                                                    <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(creature.name))}>{creature.name}</Button>
+                                                    <Button onClick={() => ScrollToEntry("bestiary-" + SanitiseString(creature.name))} className='btn-sidebar btn-sidebar-creature'>{creature.name}</Button>
                                                 </li>    
                                             ))}
                                         </ul>

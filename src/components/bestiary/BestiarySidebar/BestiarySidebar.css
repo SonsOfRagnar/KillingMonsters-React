@@ -6,10 +6,16 @@
         top: 5rem;
         height: calc(100vh - 6rem);
         padding-left: 4rem;
+
+        /*background-color: var(--color-primary-100);*/
     }
 
     .bestiary-sidebar .offcanvas-body {
         overflow-y: auto;
     }
+}
 
+.btn-sidebar {
+    background-color: transparent;
+    border: none;
 }

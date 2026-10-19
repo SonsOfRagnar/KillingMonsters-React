@@ -9,27 +9,43 @@ import { SanitiseString } from '../../../utility/StringUtilities';
 
 function BestiaryEntry({entryData}: {entryData: Creature}) {
     return (
-        <div id={"bestiary-" + SanitiseString(entryData.name)} className='bestiary-entry anchor'>
-            <h2>{entryData.name}</h2>
+        <div id={"bestiary-" + SanitiseString(entryData.name)} className='bestiary-entry'>
+            <h2 className='bestiary-header-2'>{entryData.name}</h2>
             <Row>
                 <Col>
-                    <h4>{entryData.size} {entryData.type} ({entryData.category})</h4>
-                    <p>{entryData.overview}</p>
+                    <h4 className='bestiary-header-4'>{entryData.size} {entryData.type} ({entryData.category})</h4>
+                    {entryData.overview.split(/\r?\n/).map((paragraph, index) => 
+                        <p key={"overview-" + index}>{paragraph}</p>
+                    )} 
 
-                    <h4>Strengths</h4>
-                    <p>{entryData.strengths}</p>
+                    <h4 className='bestiary-header-4'>Strengths</h4>
+                    {entryData.strengths.split(/\r?\n/).map((paragraph, index) => 
+                        <p key={"strengths-" + index}>{paragraph}</p>
+                    )} 
 
-                    <h4>Weaknesses</h4>
-                    <p>{entryData.weaknesses}</p>
+                    <h4 className='bestiary-header-4'>Weaknesses</h4>
+                    {entryData.weaknesses.split(/\r?\n/).map((paragraph, index) => 
+                        <p key={"weaknesses-" + index}>{paragraph}</p>
+                    )} 
 
-                    <h4>Peculiarities</h4>
-                    <p>{entryData.features}</p>
+                    <h4 className='bestiary-header-4'>Peculiarities</h4>
+                    {entryData.features.split(/\r?\n/).map((paragraph, index) => 
+                        <p key={"features-" + index}>{paragraph}</p>
+                    )} 
 
-                    <h4>Lures</h4>
-                    <p>{entryData.lures}</p>
+                    <h4 className='bestiary-header-4'>Lures</h4>
+                    <ul>
+                        {entryData.lures.split(/\r?\n/).map(lure => 
+                            <li key={lure}>{lure}</li>
+                        )}                        
+                    </ul>
 
-                    <h4>Ingredients & Materials</h4>
-                    <p>{entryData.harvesting}</p>
+                    <h4 className='bestiary-header-4'>Ingredients & Materials</h4>
+                    <ul>
+                        {entryData.harvesting.split(/\r?\n/).map(ingredient => 
+                            <li key={ingredient}>{ingredient}</li>
+                        )}                        
+                    </ul>
                 </Col>
 
                 <Col>
@@ -37,8 +53,10 @@ function BestiaryEntry({entryData}: {entryData: Creature}) {
                 </Col>
 
                 <div>
-                    <h4>Lore</h4>
-                    <p>{entryData.lore}</p>
+                    <h4 className='bestiary-header-4'>Lore</h4>
+                    {entryData.lore.split(/\r?\n/).map((paragraph, index) => 
+                        <p key={"lore-" + index}>{paragraph}</p>
+                    )} 
                 </div>
             </Row>
         </div>

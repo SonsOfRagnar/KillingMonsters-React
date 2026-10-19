@@ -8,3 +8,8 @@
     --text-color-secondary-100: #48392e; /* body text */
     --text-color-tertiary-100: #702a2a;
 }
+
+@font-face {
+    font-family: "Kurale";
+    src: local("Kurale"), url(./assets/fonts/Kurale-Regular.ttf) format("truetype");
+}
